@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root> 
+  <Summary>On the registration page, when you enter a spacebar instead symbols in the "password" field, an account is registered</Summary>
+  <Project>Test</Project>
+  <Environment>
+    <OS>macOS 12.0.1 (21A559)</OS>
+    <Browser>"Safari(17612.4.9.1.8),FireFox 102.0.1,Chrome 103.0.5060.114</Browser>
+  </Environment>
+  <Preconditions>"Open website 'Name'Be on the registration page</Preconditions>
+  <Description>
+    <1>Input valid data in the email, Full Name fields.</1>
+    <2>Input 12 spacebars in the Password field </2>
+    <3>Input 12 spacebars in the Confirm Password field </3>
+    <4>Click the button Registration.</4>
+  </Description>
+  <Actualresult>Successful registration with the spacebars in the Password</Actualresult>
+  <Expected_result>Error message,Invalid data entered</Expected_result>
+  <Severity>Major</Severity>
+  <Priority>High</Priority>
+  <Status>New</Status>
+  <Reporter>Udovychenko.A</Reporter>
+</root>
