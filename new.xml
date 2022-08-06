@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+<Employee>
+<name>Антон Уловиченко</name>
+<Age>25</Age>
+<Cat>1</Cat>
+<zp>1000$</zp>
+</Employee>
+</root>
